@@ -1,0 +1,41 @@
+/* pages/mycomeara/mycomeara.wxss */
+.inclass{
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  background-color: lightblue;
+  height: 150rpx;
+  align-items: center;
+  padding: 20rpx;
+}
+.input{
+  border: black 2 rpx solid;
+  width: 40%;
+  background-color: blanchedalmond;
+  font-weight: bold;
+  padding-left: 5rpx;
+  padding-right: 10rpx;
+}
+.btn_v{
+  height: 150rpx;
+  align-items: center;
+  margin: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.btnclass{
+  border: cadetblue 1rpx solid;
+  border-radius: 5rpx;
+  background-color: red;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 10rpx;
+}
+.outclass{
+  display: flex;
+  flex-direction: row;
+  height: 150rpx;
+  padding: 20rpx;
+  margin-top: 20rpx;
+}

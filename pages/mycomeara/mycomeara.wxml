@@ -1,0 +1,18 @@
+<!--pages/mycomeara/mycomeara.wxml-->
+<view class="inclass">
+  <text>请输入第一个数值：</text>
+  <input  id="n1" class="input" type="number" bindinput="numin" value="{{n1}}" />
+</view>
+
+<view class="inclass">
+  <text>请输入第二个数值：</text>
+  <input  id="n2" class="input" type="number"  bindinput="numin" value="{{n2}}" />
+</view>
+
+<view class="btn_v">
+<button bindtap="compare" class="btnclass" size="default" type="primary">确定</button>
+<view style="color: white;">-</view>
+<button bindtap="clear" class="btnclass" size="default">清除</button>  
+</view>
+
+<view class="outclass">比较结果：{{result}}</view>
